@@ -102,3 +102,4 @@ const basicCalculator= (val1,val2,operation)=>{
         return val1/val2;
     }
 }
+console.log('Exercise 9 Result:', basicCalculator(10, 5, "add"));
