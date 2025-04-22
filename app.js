@@ -85,3 +85,20 @@ const convertTemp = (temp,unit)=>{
     }
 }
 console.log('Exercise 8 Result:', convertTemp(32, "C"));
+
+//Excercise 9
+
+const basicCalculator= (val1,val2,operation)=>{
+    if(operation==="add"){
+        return val1+val2;
+    }
+    else if(operation==="subtract"){
+        return val1-val2;
+    }
+    else if(operation==='multiply'){
+        return val1*val2;
+    }
+    else if(operation ==='divide'){
+        return val1/val2;
+    }
+}
